@@ -14,7 +14,7 @@ public class BuggyProgram {
     }
 
     // Method 2: loop with array
-    public static int sumEvenNumbers(int[] values) {
+    public static int sumEvenNumbers(int[] values) { //Determine the sum of every even number in an array.
         int sum = 0;
 
         for (int i = 0; i < values.length; i++) {
@@ -27,11 +27,17 @@ public class BuggyProgram {
     }
 
     // Method 3: loop with bounds (no array)
-    public static int sumRange(int start, int end) {
+    public static int sumRange(int start, int end) { //Total sum of all values within an array.
         int sum = 0;
 
-        for (int i = start; i <= end; i++) {
-            sum += i;
+        if (start <= end) {
+            for (int i = start; i <= end; i++) {
+                sum += i;
+            }
+        } else {
+            for (int i = start; i >= end; i--) {
+                sum += i;
+            }
         }
 
         return sum;

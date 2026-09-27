@@ -59,16 +59,16 @@ https://github.com/DeathZ75/cmsc115-unit8lab1
 # Commit 4: Task 3 (sumRange)
 
 ## Which tests in Task3Test were failing before your fix?
--
+- The reverse order test fails since it can't lower the i value in the event that start has a higher value then end.
 
 ## What was the issue in the code?
--
+- It is designed for if end has a higher value then the start value. not vice versa.
 
 ## What change did you make to fix it?
--
+- I coded it to detect which value was higher between start and end. Based on that, the loop would increase the value of i or decrease.
 
 ## How did the tests help guide your fix?
--
+- Showed a programmer error for not considering the user might put a higher start number.
 
 ---
 
