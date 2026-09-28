@@ -75,26 +75,40 @@ https://github.com/DeathZ75/cmsc115-unit8lab1
 # Overall Reflection
 
 ## Which task was the easiest to fix? Why?
--
+- Task 3
+- By this point I was able to tell how to use the tests provided and 
+- just needed to add conditional statements for which variable was higher.
+- Then I just used the already provided code and only altered the loop statement.
 
 ## Which task was the most difficult? Why?
--
+- Task 1
+- First time using Github, so struggled to understand how it worked properly and that I had to manually 
+- add branches so I didn't override the initial commit and show clear difference with each task.
+- Additionally, The test values that I am supposed to reference were only provided in the virtual desktop.
+- I didn't know where to locate them at first and struggled to understand how they functioned at first without
+- just using the automatic grader provided in zybooks.
 
 ## How did Git help you track your progress through the debugging process?
--
+- If this was a bigger program I can see how it would make a lot of help with being able to revert to different stages.
+- However, with this being simple fixes, it makes relying on github kind of extra for debugging.
 
 ## Why is it important to make small, frequent commits when debugging code?
--
+- So that you can determine where the bug that needs fixing is located and can revert to specific points
+- without having to redo large amounts of work. Or notice that you can make more efficient code as your
+- programing knowledge grows.
 
 ## What did you learn about using JUnit tests to guide debugging?
--
+- Seeing what is the intended output based on input can make focusing on specific issues easier.
+- Though I think the zybooks should show what the tests are instead of just saying containers found, 
+- and how many passed or failed.
 
 ---
 
 # Commit 5: Final Reflection
 
 ## What did you complete or update before making this final commit?
--
+- I made corrections to all 3 methods as instructed. To include small alterations to assigned values, operators,
+- and conditional statements.
 
 ## Why is it useful to document your work after completing a programming task?
--
+- To have a clear and concise understanding of what changed between each commit and the reason behind the change.
